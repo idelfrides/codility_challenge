@@ -15,7 +15,6 @@ def main(*args):
     tls = TaskLibSolution()
     hsl = HelpSolutionLib()
 
-    
     data = hsl.read_data2()
     listData = hsl.setup_list(data[0])
 

@@ -3,6 +3,7 @@
 from random import randint, choice
 from os.path import dirname, realpath, join
 
+
 class HelpSolutionLib(object):
         
     def __init__(self):
