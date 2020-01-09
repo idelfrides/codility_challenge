@@ -15,13 +15,13 @@ def main(*args):
     tls = TaskLibSolution()
     hsl = HelpSolutionLib()
 
-    '''
+    
     data = hsl.read_data2()
     listData = hsl.setup_list(data[0])
 
     tls.solution_gz_not_inarray(listData)
-    '''
-    N, S = hsl.generate_seat(5)
+    
+    N, S = hsl.generate_seat(8)
     print('\n ROWS: {} \n\n RESERVED SEATS:  {}'
         .format(N, S)
     )

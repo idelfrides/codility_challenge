@@ -1,7 +1,7 @@
 """ Task helping to build solutions module """
 
 from random import randint, choice
-
+from os.path import dirname, realpath, join
 
 class HelpSolutionLib(object):
         
@@ -56,10 +56,10 @@ class HelpSolutionLib(object):
             THIS IS read_data 1 
         
         """)
-        return open('./file_inputdata.txt', 'r', encoding='utf-8')
+        return open('files/file_inputdata.txt', 'r', encoding='utf-8')
 
     def read_data2(self):
-        with open('./file_inputdata.txt', 'r', encoding='utf-8') as f:
+        with open('files/file_inputdata.txt', 'r', encoding='utf-8') as f:
             content = f.readlines()
         
         return content
